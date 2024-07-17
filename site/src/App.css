@@ -1,85 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Changa:wght@200..800&family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Changa:wght@200..800&family=Unica+One&display=swap");
 
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 .App-logo {
-    height: 20vmin;
-    pointer-events: none;
-    animation: fade-in-fade-out infinite 5s;
+  height: 20vmin;
+  pointer-events: none;
+  animation: fade-in-fade-out infinite 5s;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .logo {
-        animation: fade-in-fade-out infinite 5s;
-    }
+  .logo {
+    animation: fade-in-fade-out infinite 5s;
+  }
 }
 
 .App-header {
-    background-color: #4ecca3;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-
-    color: white;
+  background-color: #4ecca3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
 }
 
 .dash {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 @keyframes fade-in-fade-out {
-    0% {
-        opacity: 0.3;
-    }
-    10% {
-        opacity: 0.4;
-    }
-    20% {
-        opacity: 0.7;
-    }
-    30% {
-        opacity: 0.8;
-    }
-    40% {
-        opacity: 0.9;
-    }
-    50% {
-        opacity: 1;
-    }
-    60% {
-        opacity: 0.9;
-    }
-    70% {
-        opacity: 0.8;
-    }
-    80% {
-        opacity: 0.7;
-    }
-    90% {
-        opacity: 0.4;
-    }
-    100% {
-        opacity: 0.3;
-    }
+  0% {
+    opacity: 0.3;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  20% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  40% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.9;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.3;
+  }
 }
 
 .headline {
-    font-family: "Unica One", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 4em;
+  font-family: "Unica One", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 4em;
 }
 
 .tagline {
-    font-family: "Bungee Hairline", sans-serif;
-    font-size: 1.45em;
-    font-weight: 600;
-    font-stretch: expanded;
-    color: rgb(96 100 108);
-    text-shadow: 1px 1px 2px #393E4680;
+  font-family: "Bungee Hairline", sans-serif;
+  font-size: 1.45em;
+  font-weight: 600;
+  font-stretch: expanded;
+  color: rgb(96 100 108);
+  text-shadow: 1px 1px 2px #393e4680;
 }
